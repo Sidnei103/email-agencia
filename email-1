@@ -35,6 +35,7 @@
             height: auto;
             display: block;
             margin: 0 auto;
+            max-width: 100%;
         }
         .content {
             padding: 20px;
@@ -82,10 +83,9 @@
 <body>
     <div class="container">
         <div class="header">
-            <img src="https://i.imgur.com/qNbEjpF.png" alt="Logo">
+            <img src="https://i.imgur.com/qNbEjpF.png" alt="Logo" style="max-width: 180px; width: 100%; height: auto;">
         </div>
         <div class="content">
-            <h2 style="text-align: center;">Sua agência está perdendo dinheiro sem perceber? 🚀</h2>
             <p>Oi, <strong>*|NOME|*</strong>! Tudo certo por aí?</p>
             <p>Muitas agências que conversamos acreditam que precisam gerar mais leads para crescer. Mas, na maioria dos casos, o problema não é a falta de oportunidades, e sim o que acontece depois que elas entram no funil.</p>
             <p>📉 Quantos leads chegam até você e nunca fecham contrato?</p>
@@ -100,5 +100,6 @@
         <div class="signature">
             <img src="https://i.imgur.com/uzfCdk3.png" alt="Lucas">
             <p>Especialista em Crescimento para Agências</p>
+
 </body>
 </html>
