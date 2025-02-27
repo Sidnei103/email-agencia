@@ -9,8 +9,8 @@
             font-family: ui-sans-serif, sans-serif;
             font-size: 15px;
             letter-spacing: 0px;
-            line-height: 23px;
-            text-align: left;
+            line-height: 1.8 !important;
+            text-align: left !important;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
@@ -37,42 +37,31 @@
             margin: 0 auto;
             max-width: 100%;
         }
-.content {
-            text-align: left !important;
-            padding: 20px !important;
-            line-height: 1.8 !important;
-            word-spacing: 0.5px !important;
-            margin-bottom: 20px !important;
+        .content {
+            padding: 20px;
             color: #333;
         }
-        p {
+        .content p, .content ul, .content li {
+            text-align: left !important;
             margin-bottom: 18px !important;
-            font-size: 15px !important;
-        }
-        ul {
-            padding-left: 20px !important;
-            margin-bottom: 20px !important;
-        }
-        li {
-            margin-bottom: 10px !important;
         }
         .cta {
             text-align: center;
             margin-top: 20px;
         }
         .cta a {
-            background-color: #ffb400;
-            color: black;
-            padding: 14px 24px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            display: inline-block;
-            font-size: 18px;
+            background-color: #ffb400 !important;
+            color: black !important;
+            padding: 14px 24px !important;
+            text-decoration: none !important;
+            border-radius: 5px !important;
+            font-weight: bold !important;
+            display: inline-block !important;
+            font-size: 18px !important;
         }
         .cta a:hover {
-            background-color: #000;
-            color: white;
+            background-color: #000 !important;
+            color: white !important;
         }
         .signature {
             text-align: center;
@@ -80,8 +69,8 @@
             padding-bottom: 20px;
         }
         .signature img {
-            max-width: 100%;
-            display: block;
+            max-width: 100% !important;
+            display: block !important;
         }
         .footer {
             text-align: center;
@@ -98,25 +87,25 @@
 <body>
     <div class="container">
         <div class="header">
-            <img src="https://i.imgur.com/qNbEjpF.png" alt="Logo" style="max-width: 180px; width: 100%; height: auto;">
+            <img src="https://i.imgur.com/qNbEjpF.png" alt="Logo">
         </div>
         <div class="content">
             <p>Oi, <strong>*|NOME|*</strong>! Tudo certo por aí?</p>
             <p>Muitas agências que conversamos acreditam que precisam gerar mais leads para crescer. Mas, na maioria dos casos, o problema não é a falta de oportunidades, e sim o que acontece depois que elas entram no funil.</p>
-            <p>📉 Quantos leads chegam até você e nunca fecham contrato?</p>
-            <p>📉 Quantas propostas morrem no "vou pensar e te retorno"?</p>
-            <p>📉 Quanto dinheiro está ficando na mesa sem você perceber?</p>
+            <ul>
+                <li>📉 Quantos leads chegam até você e nunca fecham contrato?</li>
+                <li>📉 Quantas propostas morrem no "vou pensar e te retorno"?</li>
+                <li>📉 Quanto dinheiro está ficando na mesa sem você perceber?</li>
+            </ul>
             <p>Se alguma dessas perguntas fez sentido pra você, então podemos te ajudar. Aqui na <strong>Academia de Metas</strong>, ajudamos agências a aumentar sua taxa de conversão em até <strong>35%</strong>, organizando um processo comercial que realmente faz diferença.</p>
             <p>🔎 Que tal uma sessão de diagnóstico gratuita para entender onde sua agência pode estar perdendo dinheiro?</p>
             <div class="cta">
                 <a href="https://form.typeform.com/to/Makfg5lo">AGENDAR MINHA SESSÃO GRATUITA</a>
              </div>
-            </div>
             <p>Se fizer sentido pra você, vamos bater um papo! 😉</p>
+        </div>
         <div class="signature">
             <img src="https://i.imgur.com/uzfCdk3.png" alt="Lucas">
             <p>Especialista em Crescimento para Agências</p>
-
 </body>
 </html>
-
