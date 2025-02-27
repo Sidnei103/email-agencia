@@ -6,7 +6,11 @@
     <title>Email de Apresentação</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: ui-sans-serif, sans-serif;
+            font-size: 15px;
+            letter-spacing: 0px;
+            line-height: 23px;
+            text-align: left;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
@@ -28,14 +32,13 @@
         }
         .header img {
             width: 180px;
+            height: auto;
             display: block;
             margin: 0 auto;
         }
         .content {
-            font-size: 16px;
-            color: #333;
-            line-height: 1.6;
             padding: 20px;
+            color: #333;
         }
         .cta {
             text-align: center;
@@ -79,9 +82,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <div style="background: #111111; padding: 20px; text-align: center;">
-                <img src="https://i.imgur.com/qNbEjpF.png" alt="Logo">
-            </div>
+            <img src="https://i.imgur.com/qNbEjpF.png" alt="Logo">
         </div>
         <div class="content">
             <h2 style="text-align: center;">Sua agência está perdendo dinheiro sem perceber? 🚀</h2>
@@ -90,16 +91,12 @@
             <p>📉 Quantos leads chegam até você e nunca fecham contrato?</p>
             <p>📉 Quantas propostas morrem no "vou pensar e te retorno"?</p>
             <p>📉 Quanto dinheiro está ficando na mesa sem você perceber?</p>
-            <p>Se alguma dessas perguntas fez sentido pra você, então podemos te ajudar. Aqui na <strong>Academia de Metas</strong>, ajudamos agências a aumentar sua taxa de conversão em até 35%, organizando um processo comercial que realmente faz diferença.</p>
+            <p>Se alguma dessas perguntas fez sentido pra você, então podemos te ajudar. Aqui na <strong>Academia de Metas</strong>, ajudamos agências a aumentar sua taxa de conversão em até <strong>35%</strong>, organizando um processo comercial que realmente faz diferença.</p>
             <p>🔎 Que tal uma sessão de diagnóstico gratuita para entender onde sua agência pode estar perdendo dinheiro?</p>
             <div class="cta">
                 <a href="https://form.typeform.com/to/Makfg5lo">AGENDAR MINHA SESSÃO GRATUITA</a>
             </div>
-            <p>Nessa conversa, vamos analisar juntos:</p>
-            <p>✅ O que pode estar travando seus fechamentos.</p>
-            <p>✅ Onde estão as brechas no seu processo comercial.</p>
-            <p>✅ Como garantir que os melhores leads virem clientes.</p>
-            <p>Se fizer sentido pra você, marque um horário e bora bater um papo! 😉</p>
+            <p>Se fizer sentido pra você, bora bater um papo! 😉</p>
         <div class="signature">
             <img src="https://i.imgur.com/uzfCdk3.png" alt="Lucas">
             <p>Especialista em Crescimento para Agências</p>
