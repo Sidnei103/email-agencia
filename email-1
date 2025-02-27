@@ -37,7 +37,10 @@
             margin: 0 auto;
             max-width: 100%;
         }
-       .content {
+     .content {
+            text-align: left !important;
+            padding: 20px !important;
+            line-height: 1.6 !important;
             text-align: left !important;
             text-align: left !important;
             padding: 20px;
@@ -106,3 +109,4 @@
 
 </body>
 </html>
+
