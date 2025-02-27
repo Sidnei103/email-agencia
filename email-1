@@ -40,6 +40,7 @@
         .content {
             padding: 20px;
             color: #333;
+          text-align: left;
         }
         .cta {
             text-align: center;
