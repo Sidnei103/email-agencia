@@ -40,7 +40,6 @@
         .content {
             padding: 20px;
             color: #333;
-          text-align: left;
         }
         .cta {
             text-align: center;
@@ -96,6 +95,7 @@
             <p>🔎 Que tal uma sessão de diagnóstico gratuita para entender onde sua agência pode estar perdendo dinheiro?</p>
             <div class="cta">
                 <a href="https://form.typeform.com/to/Makfg5lo">AGENDAR MINHA SESSÃO GRATUITA</a>
+             </div>
             </div>
             <p>Se fizer sentido pra você, vamos bater um papo! 😉</p>
         <div class="signature">
